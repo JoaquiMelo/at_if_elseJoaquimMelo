@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+.lado_direito, .nota_aluno {
+    width: 150px;
+    background-color: rgb(7, 30, 30);
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+}
+.nota_aluno{
+    background-color: rgb(67, 9, 97);
+    padding: 42px;
+}
